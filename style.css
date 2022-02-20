@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600&display=swap");
+
+body {
+  font-family: "Noto Serif Display", serif;
+  background: url(https://c.wallhere.com/photos/19/21/urban_paris_france_building_glass_canon_reflections_bnf-823611.jpg!d);
+}
+
+.container {
+  width: 800px;
+  min-height: 450px;
+  border: 15px solid rgb(109, 180, 91);
+  margin: 0 auto; /*centralizing*/
+}
+.content-wrapper {
+  width: 1000px;
+  min-height: 100px;
+  margin: 0 auto; /*centralizing*/
+  border: 20px solid rgb(167, 154, 145);
+}
+.caroussel-slide {
+  height: 50px;
+}
+.card {
+  margin: 0 auto;
+  border: 20px solid rgb(157, 167, 145);
+  padding-top: 2px;
+  font-family: "Indie Flower", cursive;
+  font-family: "Teko", sans-serif;
+  background: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614772041_150-p-myataya-bumaga-fon-209.jpg);
+  font-size: 35px;
+}
+.citation-block {
+  width: 970px;
+  min-height: 185px;
+  border: 15px solid black;
+  margin: 0 auto;
+  background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612654270_94-p-mutnii-zelenii-fon-122.jpg);
+  font-family: "Indie Flower", cursive;
+  font-size: 45px;
+  color: rgb(224, 218, 205);
+}
+
+.header {
+  display: flex;
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+  height: 150px;
+  border: 2px;
+}
+
+.header-fourth {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  font-size: 15px;
+}
+
+.title-block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: top; /*text centralizing*/
+  width: 80%;
+  height: 260%;
+  font-size: 20px;
+  padding-top: 8%;
+  color: wheat;
+  background: url(https://cdn.hipwallpaper.com/i/5/55/wPup4m.jpg) no-repeat
+    center center;
+}
+.userpic {
+  display: flex;
+  height: 100%;
+  width: 20%;
+  border: 1px solid blue;
+}
+.nav ul {
+  display: flex;
+}
+
+a:hover {
+  background-color: rgb(109, 180, 91);
+}
